@@ -32,6 +32,22 @@
 $ pnpm install
 ```
 
+endpoints : 
+GET => http://localhost:3000/api/products
+POST => http://localhost:3000/api/products + BODY
+PATCH => http://localhost:3000/api/products/{ID_PRODCUTOAQUI!!} + BODY
+DELETE =>http://localhost:3000/api/products/{ID_PRODCUTOAQUI!!}
+
+EJEMPLO:BODY
+```JSON
+{
+  "name": "Laptop",
+  "price": 778.99,
+  "description": "High-end gaming laptop"
+}
+
+```
+
 ## Compile and run the project
 
 ```bash
